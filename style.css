@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;;
+  margin: 5%;
+  margin-left: 1em;
+  
+}
+nav{
+  text-align: center;
+}
