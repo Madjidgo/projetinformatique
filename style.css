@@ -25,3 +25,13 @@ nav
   border-radius: 5px;
 
 }
+img
+{
+width: 400px;
+height: 400px;
+float:left;
+}
+h1,p
+{
+color: #fff;
+}
