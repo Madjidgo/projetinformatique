@@ -1,13 +1,21 @@
 body{
   margin: 0;
   padding: 0;
+  background-image: url("blur.jpg");
 }
-nav li{
+li{
   display: inline-block;;
   margin: 5%;
   margin-left: 1em;
-  
 }
 nav{
   text-align: center;
+  border: 1px solid black;
+  margin-top:3em;
+  width: 700px;
+  margin-left: 600px;
+  border-radius: 5px;
+  box-shadow: 5px -5px teal;
+
+
 }
