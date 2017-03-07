@@ -39,7 +39,7 @@ h1
   text-shadow: 2px 2px red;
 }
 
-p
+.p1
 {
 color: #ff0;
 font-size: 20px;
@@ -50,4 +50,8 @@ text-shadow: 2px 2px black;
 .section1,.section2
 {
 margin-top: 20%;
+}
+iframe
+{
+  float: left;
 }
