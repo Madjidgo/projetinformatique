@@ -1,21 +1,27 @@
-body{
+body
+{
   margin: 0;
   padding: 0;
   background-image: url("blur.jpg");
-}
-li{
-  display: inline-block;;
-  margin: 5%;
-  margin-left: 1em;
-}
-nav{
-  text-align: center;
-  border: 1px solid black;
-  margin-top:3em;
-  width: 700px;
-  margin-left: 600px;
-  border-radius: 5px;
-  box-shadow: 5px -5px teal;
+  background-size: 100%;
+  font-family: 'Bungee Inline', cursive;
 
+}
+li
+{
+  display: inline-block;
+  padding:1%;
+}
+nav
+{
+  text-align: center;
+  margin-top:5%;
+  border: 1px solid black;
+  width: 700px;
+  margin-left: 30%;
+  font-size: 20px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px white;
+  border-radius: 5px;
 
 }
