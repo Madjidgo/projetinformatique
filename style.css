@@ -17,7 +17,7 @@ nav
   text-align: center;
   margin-top:5%;
   border: 1px solid black;
-  width: 700px;
+  width: 800px;
   margin-left: 30%;
   font-size: 20px;
   box-sizing: border-box;
@@ -27,11 +27,21 @@ nav
 }
 img
 {
-width: 400px;
-height: 400px;
+width: 300px;
+height: 300px;
 float:left;
 }
 h1,p
 {
 color: #fff;
+}
+
+#img1
+{
+float:left;
+
+}
+.section1,.p1
+{
+margin-top: 20%;
 }
