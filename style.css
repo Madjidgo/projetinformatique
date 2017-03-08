@@ -1,6 +1,22 @@
 header>img{
   width: 100%;
 }
+nav{
+  margin-left: 20%;
+  font-size: 20px;
+}
+li{
+  display: inline-block;
+  text-align: center;
+  background-color: grey;
+  margin-left: 10%;
+  margin-top: 0.5em;
+  box-shadow: 1px 1px red;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
 
 img
 {
