@@ -74,9 +74,7 @@ section{
 }
 
 footer{
-border: 1px solid black;
-border-radius: 6px;
-margin-top: 8%;
+margin-top: 10%;
 }
 
 footer,article{
@@ -87,5 +85,8 @@ iframe{
 width:700px;
  height:500px;
  frameborder:0;
- style="border:0" allowfullscreen;
+ style="border:0" allowfullscreen";
+ }
+h3{
+font-size: 20px;
 }

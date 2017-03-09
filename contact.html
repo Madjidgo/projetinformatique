@@ -18,8 +18,8 @@ l'adresse mail. Pour l'instant pas de besoin de réaliser de formulaire par cont
 cliquant sur l'email, votre gestionnaire d'emails doit s'ouvrir automatiquement pour
 l'envoi. -->
     <section>
-    <h3>Formuaire de contact</h3>
-    <form class="" action="traitement.php" method="post">
+    <h3 id"form">Formuaire de contact</h3>
+    <form action="traitement.php" method="post">
       <p>
       <label for="message">Objet du message:</label>
       <input type="text" name= "message" id="message" placeholder="objet:"><br/><br/>
@@ -27,22 +27,27 @@ l'envoi. -->
     <label for="nom"> Entrer votre Nom:</label>
     <input type="text" name= "nom" id="nom" placeholder="Nom:"><br/><br/>
 
+    <label for="pseudo">Entrer votre pseudo;</label>
+    <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo:"><br/><br/>
+
     <label for="pass">Entrer votre pass:</label>
     <input type="password" name="pass" id="pass" placeholder="Pass:"><br/><br/>
-
-    <label for="pseudo">Entrer votre pseudo</label>
-    <input type="text" name="pseudo" value="pseudo" placeholder="Pseudo:"><br/><br/>
 
     <label for="email">Entrer votre email:</label>
     <input type="email" name="email" id="email" placeholder="email:"><br/><br/>
 
-    <label for="telephone">Entrer votre téléphone</label>
+    <label for="telephone">Entrer votre téléphone:</label>
     <input type="tel" name="telephone" id="telephone" placeholder="06.00.00.00.00"><br/><br/>
 
-    <label for=""></label>
-
+     <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label><br />
+     <textarea name="ameliorer" id="ameliorer"></textarea>
     </p>
-    </form>
+
+  </form>
+    <footer>
+      <p>Posted by: Madjid Goumidi formation Simpon Roubaix:année2017</p>
+      <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a></p>
+    </footer>
   </section>
 
 </body>
