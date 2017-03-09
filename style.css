@@ -1,49 +1,54 @@
-header>img{
-  width: 100%;
+body{
+  margin: 0;
+  padding: 0;
 }
-nav{
-  margin-left: 20%;
-  font-size: 20px;
+header{
+  background-image: url("infor.jpg");
+  height: 300px;
+
 }
-li{
+h1{
+  text-align: center;
+  padding-top: 3.5em;
+  color:red;
+  font-size: 55px;
+  margin-left: 3em;
+}
+img{
+height: 300px;
+height: 130px;
+}
+nav li{
   display: inline-block;
   text-align: center;
-  background-color: grey;
-  margin-left: 10%;
-  margin-top: 0.5em;
-  box-shadow: 1px 1px red;
+  border: 1px solid black;
 }
-a{
-  text-decoration: none;
-  color:white;
-}
-
-img
-{
-width: 250px;
-height: 250px;
-float:left;
-}
-h1
-{
-  color: #fff;
+nav{
   text-align: center;
-  text-shadow: 2px 2px red;
 }
-
-.p1
-{
-color: #ff0;
-font-size: 20px;
-text-transform: capitalize;
-text-shadow: 2px 2px black;
+a:hover{
+  background-color: red;
+  text-decoration: none;
 }
-
-.section1,.section2
-{
-margin-top: 20%;
+article{
+  border: 1px solid black;
+  width: 300px;
+  margin-left: 10%;
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: 3px 3px #0066ff;
 }
-iframe
-{
-  float: left;
+section{
+  margin-left: 5em;
+  margin-top: 10%;
+}
+footer{
+border: 1px solid black;
+border-radius: 6px;
+margin-top: 13%;
+background: linear-gradient( to bottom, white, blue)
+}
+footer,article{
+  border-left: none;
+  border-top: none;
 }
