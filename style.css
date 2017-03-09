@@ -72,3 +72,7 @@ footer,article{
   border-left: none;
   border-top: none;
 }
+.impri{
+  float: left;
+  margin: 0;
+}
