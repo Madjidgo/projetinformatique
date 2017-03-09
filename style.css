@@ -10,16 +10,18 @@ figure>img{
   height: 300px;
   display: inline-block;
   float: left;
-
-
 }
+
 h1{
   text-align: center;
   color:pink;
-  font-size: 55px;
+  font-size: 70px;
   margin-left: 600px;
+  margin-top: 7%;
   display: inline-block;
+  text-shadow: 4px 4px #708090;
 }
+
 img{
 height: 300px;
 height: 130px;
@@ -27,39 +29,45 @@ height: 130px;
 nav li{
   display: inline-block;
   text-align: center;
-  border: 1px solid black;
   margin-left: 3em;
+  margin-top: 1em;
+  background-color: pink;
+  padding: 0.5em;
+  border-radius: 5px;
 }
 nav{
   text-align: center;
   background-color: grey;
   margin:3em;
-  margin-top: 10%;
-  height: 2em;
+  margin-top: 5%;
+  height: 4em;
+  border-radius: 5px;
 }
-a:hover{
-  background-color: red;
-  text-decoration: none;
 
+
+nav a{
+color: #000;
+  text-decoration: none;
 }
 article{
   border: 1px solid black;
   width: 300px;
-  margin-left: 10%;
+  margin-left: 12%;
   display: inline-block;
   border-radius: 3px;
-  box-shadow: 3px 3px #708090;
+  box-shadow: 4px 4px #708090;
 }
 section{
   margin-left: 5em;
   margin-top: 10%;
 }
+
 footer{
 border: 1px solid black;
 border-radius: 6px;
 margin-top: 8%;
-/*background: linear-gradient( to bottom, white, orange)*/
 }
+
 footer,article{
   border-left: none;
   border-top: none;
