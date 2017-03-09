@@ -21,7 +21,15 @@ h1{
   display: inline-block;
   text-shadow: 4px 4px #708090;
 }
-
+h2{
+  text-align: center;
+  color: pink;
+  text-shadow: 3px 3px black;
+  font-size: 50px;
+  background-color: grey;
+  border-radius: 5px;
+  box-shadow: 3px -3px pink;
+}
 img{
 height: 300px;
 height: 130px;
@@ -43,7 +51,6 @@ nav{
   height: 4em;
   border-radius: 5px;
 }
-
 
 nav a{
 color: #000;
@@ -72,7 +79,9 @@ footer,article{
   border-left: none;
   border-top: none;
 }
-.impri{
-  float: left;
-  margin: 0;
+iframe{
+width:800px;
+ height:600px ;
+ frameborder:0 ;
+ style="border:0" allowfullscreen
 }
