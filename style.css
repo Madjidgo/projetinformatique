@@ -3,16 +3,22 @@ body{
   padding: 0;
 }
 header{
-  background-image: url("infor.jpg");
+  font-size: 50%;
+}
+figure>img{
+  width: 200px;
   height: 300px;
+  display: inline-block;
+  float: left;
+
 
 }
 h1{
   text-align: center;
-  padding-top: 3.5em;
-  color:red;
+  color:pink;
   font-size: 55px;
-  margin-left: 3em;
+  margin-left: 600px;
+  display: inline-block;
 }
 img{
 height: 300px;
@@ -22,13 +28,19 @@ nav li{
   display: inline-block;
   text-align: center;
   border: 1px solid black;
+  margin-left: 3em;
 }
 nav{
   text-align: center;
+  background-color: grey;
+  margin:3em;
+  margin-top: 10%;
+  height: 2em;
 }
 a:hover{
   background-color: red;
   text-decoration: none;
+
 }
 article{
   border: 1px solid black;
@@ -36,7 +48,7 @@ article{
   margin-left: 10%;
   display: inline-block;
   border-radius: 3px;
-  box-shadow: 3px 3px #0066ff;
+  box-shadow: 3px 3px #708090;
 }
 section{
   margin-left: 5em;
@@ -45,8 +57,8 @@ section{
 footer{
 border: 1px solid black;
 border-radius: 6px;
-margin-top: 13%;
-background: linear-gradient( to bottom, white, blue)
+margin-top: 8%;
+/*background: linear-gradient( to bottom, white, orange)*/
 }
 footer,article{
   border-left: none;
