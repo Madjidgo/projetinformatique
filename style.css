@@ -7,7 +7,8 @@ header
 {
   font-size: 50%;
 }
-figure>img{
+figure>img
+{
   width: 200px;
   height: 300px;
   display: inline-block;
@@ -96,12 +97,12 @@ footer,article
   border-left: none;
   border-top: none;
 }
-iframe
+#iframe
 {
 width:600px;
  height:300px;
  frameborder:0;
- style="border:0" allowfullscreen";
+ style="border:1;
  }
 h3
 {
@@ -112,11 +113,13 @@ textarea
   width: 500px;
   height: 100px;
 }
-footer img {
+footer img
+{
   height: 50px;
   width: 50px;
   float: left;
 }
-section #form{
+section #form
+{
   background-color:#C0C0C0;
 }
