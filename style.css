@@ -1,8 +1,10 @@
-body{
+body
+{
   margin: 0;
   padding: 0;
 }
-header{
+header
+{
   font-size: 50%;
 }
 figure>img{
@@ -12,30 +14,35 @@ figure>img{
   float: left;
 }
 
-h1{
+h1
+{
   text-align: center;
   color:pink;
   font-size: 70px;
   margin-left: 600px;
-  margin-top: 4%;
+  margin-top: 5%;
   display: inline-block;
   text-shadow: 4px 4px #708090;
 }
-h2{
+h2
+{
   text-align: center;
   color: pink;
   text-shadow: 3px 3px black;
-  font-size: 50px;
+  font-size: 30px;
   background-color: grey;
   border-radius: 5px;
   box-shadow: 3px -3px pink;
+  margin-bottom: 2%;
 }
 
-img{
+img
+{
 height: 300px;
 height: 130px;
 }
-nav li{
+nav li
+{
   display: inline-block;
   text-align: center;
   margin-left: 3em;
@@ -44,7 +51,8 @@ nav li{
   padding: 0.5em;
   border-radius: 5px;
 }
-nav{
+nav
+{
   text-align: center;
   background-color: grey;
   margin:3em;
@@ -53,11 +61,13 @@ nav{
   border-radius: 5px;
 }
 
-nav a{
+nav a
+{
 color: #000;
   text-decoration: none;
 }
-article{
+article
+{
   border: 1px solid black;
   width: 300px;
   margin-left: 12%;
@@ -65,28 +75,39 @@ article{
   border-radius: 3px;
   box-shadow: 4px 4px #708090;
 }
-article a{
+article a
+{
   text-decoration: none;
 }
-section{
+section
+{
   margin-left: 5em;
   margin-top: 10%;
 }
 
-footer{
-margin-top: 10%;
+footer
+{
+margin-top: 8%;
 }
 
-footer,article{
+footer,article
+{
   border-left: none;
   border-top: none;
 }
-iframe{
-width:700px;
- height:500px;
+iframe
+{
+width:600px;
+ height:300px;
  frameborder:0;
  style="border:0" allowfullscreen";
  }
-h3{
+h3
+{
 font-size: 20px;
+}
+textarea
+{
+  width: 500px;
+  height: 100px;
 }
